@@ -1,0 +1,93 @@
+.row .carousel-caption{
+    color: var(--color-1);
+    background-color: var(--color-6);
+    font-size: larger;
+}
+
+.row{
+    padding: 30px;
+    border-bottom: 1px solid ;
+}
+
+.grid-news{
+    max-width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas:
+    "card card"
+    "card card";
+    grid-gap: 20px;
+    
+}
+
+.grid-news .card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.grid-news .card{
+    min-width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--color-4);
+    grid-area: "card";
+    background: var(--color-7);
+}
+
+@media (max-width: 1300px) {
+    .grid-news .card{
+        min-width: 420px;
+    }
+}
+
+.grid-news .card .item{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+#informatica .h1{
+    padding-left: 20px;
+    color: brown;
+}
+
+/*pagina noticia*/
+.container .title{
+    width: 100%;
+    padding: 0 100px;
+}
+
+.container .title h1{
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.container .title h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.container .signa-share{
+    display: flex;
+    width: 100%;
+    padding: 0 100px;
+    justify-content: space-between;
+
+}
+
+.article-body{
+    padding: 0 200px;
+}
+
+.article-body .img-container img{
+    width: 100%;
+}
+
+.article-body h1{
+    margin-top: 50px;
+}
