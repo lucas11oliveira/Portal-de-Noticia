@@ -1,0 +1,68 @@
+.container .main-login{
+    width: 87%;
+    height: auto;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .main-login a{
+    text-decoration: none;
+}
+
+.container .main-login .cadastre{
+    display: flex;
+    justify-content: center;
+}
+
+.container .main-login .title-login{
+    color: var(--color-3);
+    margin: 40px 0;
+}
+
+.container .main-login .form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .main-login .form-login input{
+    margin-bottom: 40px;
+    border-radius: 8px;
+    height: 45px;
+    padding:0 10px;
+    background-color: var(--color-7);
+    border: none;
+}
+
+.container .main-login .form-login a{
+    margin-top: -40px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.container .main-login .form-login [type="submit"]{
+    background-color: blue;
+    color: var(--color-1);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+/*Cadastro*/
+.container .main-login .form-login [type="checkbox"]{
+    height: 20px;
+    align-self: flex-start;
+}
+
+.container .main-login .form-login .termo{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+/*Cadastro*/
+.container .main-login h3,
+.container .main-login p{
+    color: var(--color-2);
+}

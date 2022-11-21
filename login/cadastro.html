@@ -19,16 +19,21 @@
                 <h1>Portal da Tecnologia</h1>
             </div>
             <form action="" class="form-login">
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome">
                 <label for="login">E-mail</label>
                 <input type="email" name="login" id="login">
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password">
-                <a href="../login/senha.html">Esqueceu sua senha?</a>
-                <input type="submit" value="Entrar">
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" name="nascimento" id="nascimento">
+                <input type="checkbox" name="termo" id="termo" value="termo">
+                <label class="termo" for="termo">Li e concordo com os <a href="">termos de uso</a> e <a href="">Política de privicidade</a></label>
+                <input type="submit" value="Cadastrar">
             </form>
             <div class="cadastre">
-                <span>Não tem conta?</span>
-                <a href="../login/cadastro.html">CADASTRE-SE</a>
+                <span>Já tem uma conta?</span>
+                <a href="../login/login.html">ENTRE</a>
             </div>
         </div>
     </div>
