@@ -50,9 +50,22 @@
     height: 300px;
 }
 
-#informatica .h1{
-    padding-left: 20px;
-    color: brown;
+#informatica .categoria,
+#softwares .categoria,
+#eletronicos .categoria,
+#tecnologias .categoria,
+#jogos .categoria,
+#esports .categoria{
+    padding-left: 100px; 
+}
+
+#informatica h1,
+#softwares h1,
+#eletronicos h1,
+#tecnologias h1,
+#jogos h1,
+#esports h1{
+    font-size: 30px; 
 }
 
 /*pagina noticia*/
